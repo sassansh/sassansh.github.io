@@ -30,7 +30,6 @@
 - [Technology Stack 🛠️](#technology-stack-)
 - [Prerequisites 🍪](#prerequisites-)
 - [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
 - [Contact 📧](#contact-)
 
 ## Technology Stack 🛠️
@@ -48,7 +47,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
 ## Setup And Deployment 🔧
 
-1. Clone the forked repo from your account using:
+1. Clone the repo using:
 
    ```bash
      git clone https://github.com/sassansh/sassansh.github.io.git
