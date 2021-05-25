@@ -5,7 +5,7 @@
 
   <p align="center">
     A personal static website/portfolio hosted with GitHub Pages, built to showcase my recent projects & experiences. Site URL / Demo: 
-    <a href="https://sasssanshokoohi.ca">sassanshokoohi.ca</a>
+    <a href="https://sassanshokoohi.ca">sassanshokoohi.ca</a>
     <br />
     <br />
     <a href="https://sassanshokoohi.ca">About Me</a>
