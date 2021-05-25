@@ -136,7 +136,7 @@ const experiences = {
       date: 'February 2019 – Present',
     },
     {
-      role: 'Technical TA (COMM 398)',
+      role: 'Technical TA (COMM 395)',
       companylogo: require('../assets/img/sauder.png'),
       date: 'August 2017 – April 2020',
     },
