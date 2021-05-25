@@ -12,7 +12,7 @@
     ·
     <a href="https://github.com/sassansh/Personal-Website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hsassansh/Personal-Website/issues">Request Feature</a>
+    <a href="https://github.com/sassansh/Personal-Website/issues">Request Feature</a>
   </p>
 </p>
 
