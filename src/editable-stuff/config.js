@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/sassansh.png"),
   imageSize: 250,
   message:
-    "My name is Sassan Shokoohi. I'm a 4th year Bachelor of Science (BCS) student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. I'm most passionate about giving back to the community, and my goal is to pursue my passion within the field of software engineering. In my free time I like working on open source projects.",
+    "Hello! My name is Sassan and I’m currently a 4th year student at the University of British Columbia pursuing a Bachelor of Computer Science degree. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on several personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.",
   resume: "https://drive.google.com/file/d/1dipPS1R9yVzwHYymka5uWan8s1RD-dhq/view?usp=sharing",
 };
 
