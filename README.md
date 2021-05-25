@@ -18,8 +18,8 @@
 
 ![GitHub contributors](https://img.shields.io/github/contributors/sassansh/sassansh.github.io?color=ffcc66&style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/sassansh/sassansh.github.io?color=ffcc66&style=for-the-badge)
-[![GitHub forks](https://img.shields.io/github/forks/sassansh/sassansh.github.io?style=for-the-badge)](https://github.com/sassansh/star_book/network)
-[![GitHub issues](https://img.shields.io/github/issues/sassansh/sassansh.github.io?color=ffcc66&style=for-the-badge)](https://github.com/sassansh/star_book/issues)
+[![GitHub forks](https://img.shields.io/github/forks/sassansh/sassansh.github.io?style=for-the-badge)](https://github.com/sassansh/sassansh.github.io/network)
+[![GitHub issues](https://img.shields.io/github/issues/sassansh/sassansh.github.io?color=ffcc66&style=for-the-badge)](https://github.com/sassansh/sassansh.github.io/issues)
 [![GitHub license](https://img.shields.io/github/license/sassansh/sassansh.github.io?style=for-the-badge)](https://github.com/sassansh/sassansh.github.io/blob/master/LICENSE)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
