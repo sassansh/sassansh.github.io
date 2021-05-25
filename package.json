@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com",
+  "description": "A personal static website/portfolio website built to showcase my recent projects & experiences",
+  "homepage": "http://sassanshokoohi.ca",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Sassan Shokoohi",
+    "email": "sassansh@student.ubc.ca",
+    "url": "https://github.com/sassansh"
   },
   "dependencies": {
     "axios": "^0.19.2",

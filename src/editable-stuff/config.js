@@ -5,31 +5,19 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  gradientColors: "#8CA4C0, #8CA4C0, #747F8D, #869F96, #B1C7BD, #B1C7BD",
+  firstName: "Sassan",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Shokoohi",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/sassansh",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/sassanshokoohi/",
     },
   ],
 };
@@ -51,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/sassansh.png"),
+  imageSize: 250,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Sassan Shokoohi. I am a 4th year Bachelor of Science (BCS) student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. I'm most passionate about giving back to the community, and my goal is to pursue my passion within the field of software engineering. In my free time I like working on open source projects.",
+  resume: "https://drive.google.com/file/d/1dipPS1R9yVzwHYymka5uWan8s1RD-dhq/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,9 +54,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "sassansh", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["Campus-Lightbox","Parking-Lot-Database","Places","Personal-Website","Car-Trading-Cards"],
 };
 
 // Leadership SECTION
@@ -79,12 +67,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/sassansh.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/sassansh.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -103,21 +91,19 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "C / C# / C++", value: 55 },
+    { name: "HTML/CSS", value: 80 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "React", value: 80 },
+    { name: "VueJS", value: 75 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Visual Studio", value: 80 },
+    { name: "PyCharm", value: 80 },
+    { name: "Node", value: 80 },
+    { name: "Linux", value: 75 },
+    { name: "Mac", value: 85 },
+    { name: "Windows", value: 70 },
   ],
 };
 
@@ -126,24 +112,39 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently working full-time and studying part time! If you know of any positions available for the future, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "sassansh@student.ubc.ca",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Healthcare Software Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/xerusmedical.png'),
+      date: 'September 2020 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Computer Science TA (CPSC 110)',
+      companylogo: require('../assets/img/ubc.png'),
+      date: 'September 2019 – Present',
     },
+    {
+      role: 'Lead Software Engineer',
+      companylogo: require('../assets/img/clb.png'),
+      date: 'February 2019 – Present',
+    },
+    {
+      role: 'Technical TA (COMM 398)',
+      companylogo: require('../assets/img/sauder.png'),
+      date: 'August 2017 – April 2020',
+    },
+    {
+      role: 'Database & IT Assistant',
+      companylogo: require('../assets/img/ubcpsych.png'),
+      date: 'February 2016 – August 2017',
+    }
   ]
 }
 
