@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/sassansh.png"),
   imageSize: 250,
   message:
-    "My name is Sassan Shokoohi. I am a 4th year Bachelor of Science (BCS) student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. I'm most passionate about giving back to the community, and my goal is to pursue my passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Sassan Shokoohi. I'm a 4th year Bachelor of Science (BCS) student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. I'm most passionate about giving back to the community, and my goal is to pursue my passion within the field of software engineering. In my free time I like working on open source projects.",
   resume: "https://drive.google.com/file/d/1dipPS1R9yVzwHYymka5uWan8s1RD-dhq/view?usp=sharing",
 };
 
@@ -55,8 +55,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "sassansh", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: ["Campus-Lightbox","Parking-Lot-Database","Places","Personal-Website","Car-Trading-Cards"],
+  reposLength: 100,
+  specificRepos: [],
 };
 
 // Leadership SECTION
