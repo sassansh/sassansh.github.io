@@ -21,7 +21,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/sassansh/Personal-Website?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
 [![GitHub issues](https://img.shields.io/github/issues/sassansh/Personal-Website?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
 [![GitHub license](https://img.shields.io/github/license/sassansh/Personal-Website?style=for-the-badge)](https://github.com/sassansh/Personal-Website/blob/master/LICENSE)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555])](https://www.linkedin.com/in/sassanshokoohi/)
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 [![Site preview](/public/social-image.png)](https://sassanshokoohi.ca/)
 
@@ -79,3 +79,5 @@ Sassan Shokoohi - sassansh@student.ubc.ca
 
 Project Link: [https://github.com/sassansh/Car-Trading-Cards](https://github.com/sassansh/Car-Trading-Cards)
 
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sassanshokoohi/
