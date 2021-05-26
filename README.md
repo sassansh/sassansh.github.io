@@ -1,10 +1,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center">My Portfolio ✨</h1>
+ <a href="https://github.com/campuslightbox/Campus-Lightbox">
+    <img src="https://bit.ly/3oR1QUV" alt="Logo" width="80" height="80">
+  </a>
+  <h2 align="center">My Personal Website ✨</h2>
 
   <p align="center">
-    A personal static website/portfolio hosted with GitHub Pages, built to showcase my recent projects & experiences. Site URL / Demo: 
+    A personal website built to showcase my recent projects & experiences. Vist me at: 
     <a href="https://sassanshokoohi.ca">sassanshokoohi.ca</a>
     <br />
     <br />
