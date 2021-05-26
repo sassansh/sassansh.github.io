@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
- <a href="https://github.com/campuslightbox/Campus-Lightbox">
+ <a href="https://github.com/sassansh/sassansh.github.io">
     <img src="https://bit.ly/3oR1QUV" alt="Logo" width="80" height="80">
   </a>
   <h2 align="center">My Personal Website ✨</h2>
