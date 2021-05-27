@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/sassansh.png"),
   imageSize: 250,
   message:
-    "Hello! My name is Sassan and I’m currently a 4th year student at the University of British Columbia pursuing a Bachelor of Computer Science degree. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on several personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.",
+    "Hello! My name is Sassan and I’m currently a senior year Computer Science student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on numerous personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -112,7 +112,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently working full-time and studying part time! If you know of any positions available for the future, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently working full-time and studying part-time! If you know of any available positions for the future, have any questions, or if you just want to say hi, please feel free to email me at",
   email: "sassansh@student.ubc.ca",
 };
 
