@@ -46,7 +46,7 @@ Dependencies defined in package.json:
 
 ## Prerequisites 🍪
 
-You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
+You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC.
 
 ## Setup And Deployment 🔧
 
@@ -56,20 +56,20 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
      git clone https://github.com/sassansh/sassansh.github.io.git
    ```
 
-2. Run the following bash commands:
+2. To start development server, run the following bash commands:
 
    ```bash
    npm install
    npm start
    ```
 
-3. To deploy website, run:
+3. To build & deploy website, run:
 
    ```bash
     npm run deploy
    ```
 
-4. Congrats your site is up and running. To see it live, visit:
+4. My updated website is now up and running! To see it live, visit:
 
    ```https
      https://sassanshokoohi.ca
