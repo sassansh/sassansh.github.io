@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
+import {repos} from "../../editable-stuff/config.js";
 
 const ProjectCard = ({ value }) => {
   const {
@@ -19,7 +20,7 @@ const ProjectCard = ({ value }) => {
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
-          {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
+          {svn_url ? <CardButtons name={name} svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />
           {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
@@ -37,11 +38,22 @@ const ProjectCard = ({ value }) => {
   );
 };
 
-const CardButtons = ({ svn_url }) => {
+const CardButtons = ({ name, svn_url }) => {
+  let downloadURL = svn_url+'/archive/main.zip'
+  if (repos.masterRepos.includes(name)) {
+    downloadURL= svn_url+'/archive/master.zip'
+  }
+
   return (
     <>
+      <a
+        href={`${downloadURL}`}
+        className="btn btn-outline-secondary mr-3"
+      >
+        <i className="fab fa-github" /> Clone Project
+      </a>
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
-        <i className="fab fa-github" /> Go To Repo
+        <i className="fab fa-github" /> Repo
       </a>
     </>
   );
@@ -122,11 +134,11 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
         className="text-dark text-decoration-none"
       >
         <span className="text-dark card-link mr-4">
-          <i className="fab fa-github" /> {" "}
-          <small className="text-muted">Updated {updated_at}</small>
+          <i className="fab fa-github" /> Stars{" "}
+          <span className="badge badge-dark">{star_count}</span>
         </span>
       </a>
-      
+      <small className="text-muted">Updated {updated_at}</small>
     </p>
   );
 };
