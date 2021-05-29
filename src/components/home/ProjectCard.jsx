@@ -38,15 +38,13 @@ const ProjectCard = ({ value }) => {
 };
 
 const CardButtons = ({ name, svn_url }) => {
-  const [downloadURL, setdownloadURL] = useState('');
+  const [downloadURL, setdownloadURL] = useState(svn_url+'/archive/master.zip');
 
   const handleRequest = async () => {
     try {
       const response = await axios.get(`https://api.github.com/repos/sassansh/${name}/branches`);
-      if (response.data.filter(function(e) { return e.name === 'main'; }).length > 0) {
+      if (response.data.some(e => e.name === 'main')) {
         setdownloadURL(svn_url+'/archive/main.zip')
-      } else {
-        setdownloadURL(svn_url+'/archive/master.zip')
       }
     } catch (error) {
       console.error(error.message);
