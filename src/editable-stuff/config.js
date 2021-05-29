@@ -56,7 +56,6 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "sassansh", //i.e."johnDoe12Gh"
   reposLength: 30,
-  masterRepos: ["sassansh.github.io", "Campus-Lightbox", "Parking-Lot-System"],
   specificRepos: [],
 };
 

@@ -3,7 +3,6 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
-import {repos} from "../../editable-stuff/config.js";
 
 const ProjectCard = ({ value }) => {
   const {
@@ -39,10 +38,24 @@ const ProjectCard = ({ value }) => {
 };
 
 const CardButtons = ({ name, svn_url }) => {
-  let downloadURL = svn_url+'/archive/main.zip'
-  if (repos.masterRepos.includes(name)) {
-    downloadURL= svn_url+'/archive/master.zip'
-  }
+  const [downloadURL, setdownloadURL] = useState('');
+
+  const handleRequest = async () => {
+    try {
+      const response = await axios.get(`https://api.github.com/repos/sassansh/${name}/branches`);
+      if (response.data.filter(function(e) { return e.name === 'main'; }).length > 0) {
+        setdownloadURL(svn_url+'/archive/main.zip')
+      } else {
+        setdownloadURL(svn_url+'/archive/master.zip')
+      }
+    } catch (error) {
+      console.error(error.message);
+    }
+  };
+
+  useEffect(() => {
+    handleRequest();
+  });
 
   return (
     <>
