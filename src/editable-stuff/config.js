@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "sassansh", //i.e."johnDoe12Gh"
-  reposLength: 30,
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -148,9 +148,28 @@ const experiences = {
   ]
 }
 
+const educations = {
+  show: true,
+  heading: "Education",
+  data: [
+    {
+      degree: 'Bachelor of Computer Science',
+      major: 'Computer Science & Commerce',
+      educationlogo: require('../assets/img/ubc-grey.png'),
+      date: 'September 2019 – Present',
+    },
+    {
+      degree: 'Bachelor of Science',
+      major: 'Chemistry, Biology & Environmental Sciences',
+      educationlogo: require('../assets/img/ubc-grey.png'),
+      date: 'September 2012 – April 2017',
+    },
+  ]
+}
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, educations };
