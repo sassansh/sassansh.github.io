@@ -11,9 +11,9 @@ const EducationCard = ({data}) => {
                 <p className="lead">
                     {data.degree}
                     <br/>
-                    <small className="text-muted">{data.major}</small>
-                    <br/>
                     {data.date}
+                    <br/>
+                    <small className="text-muted">{data.major}</small>
                 </p>
                 
             </div>
