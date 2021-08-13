@@ -12,12 +12,22 @@ const mainBody = {
   message: ' Passionate about changing the world with technology. ',
   icons: [
     {
+      image: 'fa-envelope',
+      lib: 'fa',
+      url: 'mailto:sassansh@student.ubc.ca',
+      newTab: false
+    },
+    {
       image: 'fa-github',
-      url: 'https://github.com/sassansh'
+      lib: 'fab',
+      url: 'https://github.com/sassansh',
+      newTab: true
     },
     {
       image: 'fa-linkedin',
-      url: 'https://www.linkedin.com/in/sassanshokoohi/'
+      lib: 'fab',
+      url: 'https://www.linkedin.com/in/sassanshokoohi/',
+      newTab: true
     }
   ]
 };
