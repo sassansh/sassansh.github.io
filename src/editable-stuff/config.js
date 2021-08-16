@@ -166,7 +166,7 @@ const educations = {
       degree: 'Bachelor of Computer Science',
       major: 'Computer Science & Commerce',
       educationlogo: require('../assets/img/ubc-grey.png'),
-      date: 'September 2019 – April 2021'
+      date: 'September 2019 – April 2022'
     },
     {
       degree: 'Bachelor of Science',
