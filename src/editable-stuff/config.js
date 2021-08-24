@@ -122,7 +122,7 @@ const getInTouch = {
   show: true,
   heading: 'Get In Touch',
   message:
-    "I'm currently working full-time and studying part-time! If you know of any available positions for the future, have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently studying full-time and working part-time! If you know of any available positions for post graduation, have any questions, or if you just want to say hi, please feel free to email me at",
   email: 'sassansh@student.ubc.ca'
 };
 
