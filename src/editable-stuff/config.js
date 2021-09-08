@@ -1,6 +1,6 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true
+  show: true,
 };
 
 // Main Body SECTION
@@ -15,21 +15,21 @@ const mainBody = {
       image: 'fa-envelope',
       lib: 'fa',
       url: 'mailto:sassansh@student.ubc.ca',
-      newTab: false
+      newTab: false,
     },
     {
       image: 'fa-github',
       lib: 'fab',
       url: 'https://github.com/sassansh',
-      newTab: true
+      newTab: true,
     },
     {
       image: 'fa-linkedin',
       lib: 'fab',
       url: 'https://www.linkedin.com/in/sassanshokoohi/',
-      newTab: true
-    }
-  ]
+      newTab: true,
+    },
+  ],
 };
 
 // ABOUT SECTION
@@ -53,7 +53,7 @@ const about = {
   imageSize: 250,
   message:
     'Hello! My name is Sassan and I’m currently a senior year Computer Science student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on numerous personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.',
-  resume: require('../editable-stuff/resume.pdf')
+  resume: require('../editable-stuff/resume.pdf'),
 };
 
 // PROJECTS SECTION
@@ -66,7 +66,7 @@ const repos = {
   heading: 'Recent Projects',
   gitHubUsername: 'sassansh', //i.e."johnDoe12Gh"
   reposLength: 6,
-  specificRepos: []
+  specificRepos: [],
 };
 
 // Leadership SECTION
@@ -79,18 +79,18 @@ const leadership = {
     {
       img: require('../editable-stuff/sassansh.png'),
       label: 'First slide label',
-      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
     },
     {
       img: require('../editable-stuff/sassansh.png'),
       label: 'Second slide label',
-      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
-    }
+      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+    },
   ],
   imageSize: {
     width: '615',
-    height: '450'
-  }
+    height: '450',
+  },
 };
 
 // SKILLS SECTION
@@ -98,23 +98,19 @@ const skills = {
   show: true,
   heading: 'Skills',
   hardSkills: [
-    { name: 'Python', value: 90 },
-    { name: 'SQL', value: 75 },
-    { name: 'Data Structures', value: 85 },
-    { name: 'C / C# / C++', value: 55 },
-    { name: 'HTML/CSS', value: 80 },
     { name: 'JavaScript', value: 90 },
-    { name: 'React', value: 80 },
-    { name: 'VueJS', value: 75 }
+    { name: 'Python', value: 80 },
+    { name: 'C / C++', value: 75 },
+    { name: 'HTML', value: 80 },
+    { name: 'SQL', value: 85 },
+    { name: 'CSS', value: 80 },
   ],
   softSkills: [
-    { name: 'Visual Studio', value: 80 },
+    { name: 'VS Code', value: 80 },
     { name: 'PyCharm', value: 80 },
     { name: 'Node', value: 80 },
-    { name: 'Linux', value: 75 },
-    { name: 'Mac', value: 85 },
-    { name: 'Windows', value: 70 }
-  ]
+    { name: 'ReactJS', value: 80 },
+  ],
 };
 
 // GET IN TOUCH SECTION
@@ -123,7 +119,7 @@ const getInTouch = {
   heading: 'Get In Touch',
   message:
     "I'm currently studying full-time and working part-time! If you know of any available positions for post graduation, have any questions, or if you just want to say hi, please feel free to email me at",
-  email: 'sassansh@student.ubc.ca'
+  email: 'sassansh@student.ubc.ca',
 };
 
 const experiences = {
@@ -131,31 +127,31 @@ const experiences = {
   heading: 'Experiences',
   data: [
     {
-      role: 'Healthcare Software Engineer',
-      companylogo: require('../assets/img/xerusmedical.png'),
-      date: 'September 2020 – August 2021'
-    },
-    {
       role: 'Computer Science TA (CPSC 110)',
       companylogo: require('../assets/img/ubc.png'),
-      date: 'September 2019 – April 2021'
+      date: 'September 2019 – Current',
+    },
+    {
+      role: 'Healthcare Software Engineer',
+      companylogo: require('../assets/img/xerusmedical.png'),
+      date: 'September 2020 – August 2021',
     },
     {
       role: 'Lead Software Engineer',
       companylogo: require('../assets/img/clb.png'),
-      date: 'February 2019 – Present'
+      date: 'February 2019 – Present',
     },
     {
       role: 'Technical TA (COMM 395)',
       companylogo: require('../assets/img/sauder.png'),
-      date: 'August 2017 – April 2020'
+      date: 'August 2017 – April 2020',
     },
     {
       role: 'Database & IT Assistant',
       companylogo: require('../assets/img/ubcpsych.png'),
-      date: 'February 2016 – August 2017'
-    }
-  ]
+      date: 'February 2016 – August 2017',
+    },
+  ],
 };
 
 const educations = {
@@ -166,15 +162,15 @@ const educations = {
       degree: 'Bachelor of Computer Science',
       major: 'Computer Science & Commerce',
       educationlogo: require('../assets/img/ubc-grey.png'),
-      date: 'September 2019 – April 2022'
+      date: 'September 2019 – April 2022',
     },
     {
       degree: 'Bachelor of Science',
       major: 'Chemistry, Biology & Environmental Sciences',
       educationlogo: require('../assets/img/ubc-grey.png'),
-      date: 'September 2012 – April 2017'
-    }
-  ]
+      date: 'September 2012 – April 2017',
+    },
+  ],
 };
 
 // Blog SECTION
@@ -182,4 +178,14 @@ const educations = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, educations };
+export {
+  navBar,
+  mainBody,
+  about,
+  repos,
+  skills,
+  leadership,
+  getInTouch,
+  experiences,
+  educations,
+};
