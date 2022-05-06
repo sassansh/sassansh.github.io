@@ -63,11 +63,13 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
    npm start
    ```
 
-3. To build & deploy website, run:
+3. To build & deploy website\*, run:
 
    ```bash
     npm run deploy
    ```
+
+   \*Note to self: On push to master, website is built and deployed automatically using Github Actions.
 
 4. My updated website is now up and running! To see it live, visit:
 
