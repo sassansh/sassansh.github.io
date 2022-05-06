@@ -26,6 +26,9 @@
     "sass": "^1.51.0",
     "typescript": "^3.9.7"
   },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
