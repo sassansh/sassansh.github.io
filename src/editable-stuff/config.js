@@ -155,7 +155,7 @@ const experiences = {
       date: "February 2019 – Present",
     },
     {
-      role: "Technical TA (COMM 395)",
+      role: "Technical Teaching Assistant",
       companylogo: require("../assets/img/sauder.png"),
       date: "August 2017 – April 2020",
     },
