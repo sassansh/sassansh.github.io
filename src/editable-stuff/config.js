@@ -52,7 +52,7 @@ const about = {
   imageLink: require("../editable-stuff/sassansh.png"),
   imageSize: 250,
   message:
-    "Hello! My name is Sassan and I recently graduated with a Bachelor of Computer Science degree at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on numerous personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.",
+    "Hello! My name is Sassan and I recently graduated with a Bachelor of Computer Science degree from the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on numerous personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
