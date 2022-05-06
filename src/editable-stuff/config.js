@@ -5,28 +5,28 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: '#8CA4C0, #8CA4C0, #747F8D, #869F96, #B1C7BD, #B1C7BD',
-  firstName: 'Sassan',
-  middleName: '',
-  lastName: 'Shokoohi',
-  message: ' Passionate about changing the world with technology. ',
+  gradientColors: "#8CA4C0, #8CA4C0, #747F8D, #869F96, #B1C7BD, #B1C7BD",
+  firstName: "Sassan",
+  middleName: "",
+  lastName: "Shokoohi",
+  message: " Passionate about changing the world with technology. ",
   icons: [
     {
-      image: 'fa-envelope',
-      lib: 'fa',
-      url: 'mailto:sassansh@student.ubc.ca',
+      image: "fa-envelope",
+      lib: "fa",
+      url: "mailto:sassansh@student.ubc.ca",
       newTab: false,
     },
     {
-      image: 'fa-github',
-      lib: 'fab',
-      url: 'https://github.com/sassansh',
+      image: "fa-linkedin",
+      lib: "fab",
+      url: "https://www.linkedin.com/in/sassanshokoohi/",
       newTab: true,
     },
     {
-      image: 'fa-linkedin',
-      lib: 'fab',
-      url: 'https://www.linkedin.com/in/sassanshokoohi/',
+      image: "fa-github",
+      lib: "fab",
+      url: "https://github.com/sassansh",
       newTab: true,
     },
   ],
@@ -48,12 +48,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: 'About Me',
-  imageLink: require('../editable-stuff/sassansh.png'),
+  heading: "About Me",
+  imageLink: require("../editable-stuff/sassansh.png"),
   imageSize: 250,
   message:
-    'Hello! My name is Sassan and I’m currently a senior year Computer Science student at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on numerous personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.',
-  resume: require('../editable-stuff/resume.pdf'),
+    "Hello! My name is Sassan and I recently graduated with a Bachelor of Computer Science degree at the University of British Columbia. I also have a prior Bachelor of Science from UBC in Chemistry, Biology & Environmental Sciences. My love for technology started when I first touched a computer at my dad’s office when I was 7. Fast-forward to today, and I’ve worked on numerous personal projects, developed a healthcare analytics platform for a start-up, and contributed to a student-led mental health web app.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -63,8 +63,8 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: 'Recent Projects',
-  gitHubUsername: 'sassansh', //i.e."johnDoe12Gh"
+  heading: "Recent Projects",
+  gitHubUsername: "sassansh", //i.e."johnDoe12Gh"
   reposLength: 6,
   specificRepos: [],
 };
@@ -72,111 +72,116 @@ const repos = {
 // Leadership SECTION
 const leadership = {
   show: false,
-  heading: 'Leadership',
+  heading: "Leadership",
   message:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.',
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     {
-      img: require('../editable-stuff/sassansh.png'),
-      label: 'First slide label',
-      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+      img: require("../editable-stuff/sassansh.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
     {
-      img: require('../editable-stuff/sassansh.png'),
-      label: 'Second slide label',
-      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+      img: require("../editable-stuff/sassansh.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
   ],
   imageSize: {
-    width: '615',
-    height: '450',
+    width: "615",
+    height: "450",
   },
 };
 
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: 'Skills',
+  heading: "Skills",
   hardSkills: [
-    { name: 'JavaScript', value: 90 },
-    { name: 'Python', value: 80 },
-    { name: 'SQL', value: 75 },
-    { name: 'Data Structures', value: 85 },
-    { name: 'C/C++', value: 65 },
-    { name: 'Node', value: 80 },
-    { name: 'MongoDB', value: 70 },
-    { name: 'React', value: 80 },
-    { name: 'HTML/CSS', value: 80 },
-    { name: 'VS Code/PyCharm', value: 80 },
+    { name: "JavaScript", value: 90 },
+    { name: "Python", value: 80 },
+    { name: "SQL", value: 75 },
+    { name: "Go", value: 80 },
+    { name: "C/C++", value: 65 },
+    { name: "PHP", value: 75 },
+    { name: "MongoDB", value: 70 },
+    { name: "React", value: 80 },
+    { name: "HTML/CSS", value: 80 },
+    { name: "VS Code/PyCharm", value: 80 },
   ],
   softSkills: [
-    { name: 'Goal-Oriented', value: 80 },
-    { name: 'Collaboration', value: 90 },
-    { name: 'Positivity', value: 75 },
-    { name: 'Adaptability', value: 85 },
-    { name: 'Problem Solving', value: 75 },
-    { name: 'Empathy', value: 90 },
-    { name: 'Organization', value: 70 },
-    { name: 'Creativity', value: 90 },
+    { name: "Goal-Oriented", value: 80 },
+    { name: "Collaboration", value: 90 },
+    { name: "Positivity", value: 75 },
+    { name: "Adaptability", value: 85 },
+    { name: "Problem Solving", value: 75 },
+    { name: "Empathy", value: 90 },
+    { name: "Organization", value: 70 },
+    { name: "Creativity", value: 90 },
   ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: 'Get In Touch',
+  heading: "Get In Touch",
   message:
-    "I'm currently studying full-time and working part-time! If you know of any available positions for post graduation, have any questions, or if you just want to say hi, please feel free to email me at",
-  email: 'sassansh@student.ubc.ca',
+    "I recently graduated! If you know of any available positions for new grads, have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "sassansh@student.ubc.ca",
 };
 
 const experiences = {
   show: true,
-  heading: 'Experiences',
+  heading: "Experiences",
   data: [
     {
-      role: 'Computer Science TA (CPSC 110)',
-      companylogo: require('../assets/img/ubc.png'),
-      date: 'September 2019 – Current',
+      role: "Database and Web Developer",
+      companylogo: require("../assets/img/beaty.png"),
+      date: "November 2021 – May 2022",
     },
     {
-      role: 'Healthcare Software Engineer',
-      companylogo: require('../assets/img/xerusmedical.png'),
-      date: 'September 2020 – August 2021',
+      role: "Undergraduate Teaching Assistant",
+      companylogo: require("../assets/img/ubc.png"),
+      date: "September 2019 – December 2021",
     },
     {
-      role: 'Lead Software Engineer',
-      companylogo: require('../assets/img/clb.png'),
-      date: 'February 2019 – Present',
+      role: "Healthcare Software Engineer",
+      companylogo: require("../assets/img/xerusmedical.png"),
+      date: "September 2020 – August 2021",
     },
     {
-      role: 'Technical TA (COMM 395)',
-      companylogo: require('../assets/img/sauder.png'),
-      date: 'August 2017 – April 2020',
+      role: "Lead Software Engineer",
+      companylogo: require("../assets/img/clb.png"),
+      date: "February 2019 – Present",
     },
     {
-      role: 'Database & IT Assistant',
-      companylogo: require('../assets/img/ubcpsych.png'),
-      date: 'February 2016 – August 2017',
+      role: "Technical TA (COMM 395)",
+      companylogo: require("../assets/img/sauder.png"),
+      date: "August 2017 – April 2020",
+    },
+    {
+      role: "Database & IT Assistant",
+      companylogo: require("../assets/img/ubcpsych.png"),
+      date: "February 2016 – August 2017",
     },
   ],
 };
 
 const educations = {
   show: true,
-  heading: 'Education',
+  heading: "Education",
   data: [
     {
-      degree: 'Bachelor of Computer Science',
-      major: 'Computer Science & Commerce',
-      educationlogo: require('../assets/img/ubc-grey.png'),
-      date: 'September 2019 – April 2022',
+      degree: "Bachelor of Computer Science",
+      major: "Computer Science & Commerce",
+      educationlogo: require("../assets/img/ubc-grey.png"),
+      date: "September 2019 – April 2022",
     },
     {
-      degree: 'Bachelor of Science',
-      major: 'Chemistry, Biology & Environmental Sciences',
-      educationlogo: require('../assets/img/ubc-grey.png'),
-      date: 'September 2012 – April 2017',
+      degree: "Bachelor of Science",
+      major: "Chemistry, Biology & Environmental Sciences",
+      educationlogo: require("../assets/img/ubc-grey.png"),
+      date: "September 2012 – April 2017",
     },
   ],
 };
