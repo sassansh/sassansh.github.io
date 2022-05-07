@@ -141,7 +141,7 @@ const experiences = {
     },
     {
       role: "Undergraduate Teaching Assistant",
-      companylogo: require("../assets/img/ubc.png"),
+      companylogo: require("../assets/img/ubc-cs.png"),
       date: "September 2019 – December 2021",
     },
     {
