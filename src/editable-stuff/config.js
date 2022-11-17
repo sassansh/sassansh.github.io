@@ -152,7 +152,7 @@ const experiences = {
     {
       role: "Lead Software Engineer",
       companylogo: require("../assets/img/clb.png"),
-      date: "February 2019 – Present",
+      date: "November 2018 – February 2022",
     },
     {
       role: "Technical Teaching Assistant",
