@@ -173,15 +173,15 @@ const educations = {
   data: [
     {
       degree: "Bachelor of Computer Science",
-      major: "Computer Science & Commerce",
+      major: "Computer Science",
       educationlogo: require("../assets/img/ubc-grey.png"),
-      date: "September 2019 – April 2022",
+      date: "2019 – 2022",
     },
     {
       degree: "Bachelor of Science",
       major: "Chemistry, Biology & Environmental Sciences",
       educationlogo: require("../assets/img/ubc-grey.png"),
-      date: "September 2012 – April 2017",
+      date: "2012 – 2017",
     },
   ],
 };
