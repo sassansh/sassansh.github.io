@@ -29,6 +29,12 @@ const mainBody = {
       url: "https://github.com/sassansh",
       newTab: true,
     },
+    {
+      image: "fa-hackerrank",
+      lib: "fa-brands",
+      url: "https://leetcode.com/sassansh/",
+      newTab: true,
+    },
   ],
 };
 
