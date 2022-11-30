@@ -14,7 +14,7 @@ const mainBody = {
     {
       image: "fa-envelope",
       lib: "fa",
-      url: "mailto:sassansh@student.ubc.ca",
+      url: "mailto:ssassan_shokoohi@me.com",
       newTab: false,
     },
     {
@@ -133,7 +133,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I recently graduated! If you know of any available positions for new grads, have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "sassansh@student.ubc.ca",
+  email: "sassan_shokoohi@me.com",
 };
 
 const experiences = {

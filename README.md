@@ -79,7 +79,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
 ## Contact 📧
 
-Sassan Shokoohi - sassansh@student.ubc.ca
+Sassan Shokoohi - sassan_shokoohi@me.com
 
 Project Link: [https://github.com/sassansh/sassansh.github.io](https://github.com/sassansh/sassansh.github.io)
 
