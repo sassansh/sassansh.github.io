@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-import { useScrollPosition } from "../hooks/useScrollPosition";
-import useResizeObserver from "../hooks/useResizeObserver";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import {
+  about,
+  educations,
   mainBody,
   repos,
-  about,
   skills,
-  educations,
 } from "../editable-stuff/config.js";
+
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import useResizeObserver from "../hooks/useResizeObserver";
+import { useScrollPosition } from "../hooks/useScrollPosition";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -63,14 +64,14 @@ const Navigation = React.forwardRef((props, ref) => {
               About
             </Nav.Link>
           )}
-          <Nav.Link
+          {/* <Nav.Link
             className="nav-link lead"
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
           >
             Resume
-          </Nav.Link>
+          </Nav.Link> */}
           {educations.show && (
             <Nav.Link
               className="nav-link lead"
