@@ -179,7 +179,7 @@ const educations = {
   data: [
     {
       degree: "Bachelor of Computer Science",
-      major: "GPA: 86% (3.72/4.33)",
+      major: "Computer Science",
       educationlogo: require("../assets/img/ubc-grey.png"),
       date: "2019 – 2022",
     },
