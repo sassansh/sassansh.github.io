@@ -14,7 +14,7 @@ const mainBody = {
     {
       image: "fa-envelope",
       lib: "fa",
-      url: "mailto:ssassan_shokoohi@me.com",
+      url: "mailto:sassan_shokoohi@me.com",
       newTab: false,
     },
     {
