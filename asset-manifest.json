@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.e342de18.chunk.css",
-    "main.js": "/static/js/main.9863e95b.chunk.js",
-    "main.js.map": "/static/js/main.9863e95b.chunk.js.map",
+    "main.js": "/static/js/main.ed34bbcb.chunk.js",
+    "main.js.map": "/static/js/main.ed34bbcb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d4e5be7.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d4e5be7.js.map",
-    "static/js/2.abaa0208.chunk.js": "/static/js/2.abaa0208.chunk.js",
-    "static/js/2.abaa0208.chunk.js.map": "/static/js/2.abaa0208.chunk.js.map",
+    "static/js/2.effd3ad0.chunk.js": "/static/js/2.effd3ad0.chunk.js",
+    "static/js/2.effd3ad0.chunk.js.map": "/static/js/2.effd3ad0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.13ea7f8a76216873002201537bb93c27.js": "/precache-manifest.13ea7f8a76216873002201537bb93c27.js",
+    "precache-manifest.50cdba7df30c4469b12b18926aefd55e.js": "/precache-manifest.50cdba7df30c4469b12b18926aefd55e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e342de18.chunk.css.map": "/static/css/main.e342de18.chunk.css.map",
-    "static/js/2.abaa0208.chunk.js.LICENSE.txt": "/static/js/2.abaa0208.chunk.js.LICENSE.txt",
-    "static/js/main.9863e95b.chunk.js.LICENSE.txt": "/static/js/main.9863e95b.chunk.js.LICENSE.txt",
+    "static/js/2.effd3ad0.chunk.js.LICENSE.txt": "/static/js/2.effd3ad0.chunk.js.LICENSE.txt",
+    "static/js/main.ed34bbcb.chunk.js.LICENSE.txt": "/static/js/main.ed34bbcb.chunk.js.LICENSE.txt",
     "static/media/beaty.png": "/static/media/beaty.516bc458.png",
     "static/media/clb.png": "/static/media/clb.2a998ae4.png",
     "static/media/sassansh.png": "/static/media/sassansh.82ae705f.png",
@@ -20,12 +20,13 @@
     "static/media/ubc-cs.png": "/static/media/ubc-cs.bd4b6d18.png",
     "static/media/ubc-grey.png": "/static/media/ubc-grey.e5bf9cc9.png",
     "static/media/ubcpsych.png": "/static/media/ubcpsych.b65605a5.png",
+    "static/media/veeva.png": "/static/media/veeva.c30b01fb.png",
     "static/media/xerusmedical.png": "/static/media/xerusmedical.235cbe9f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2d4e5be7.js",
-    "static/js/2.abaa0208.chunk.js",
+    "static/js/2.effd3ad0.chunk.js",
     "static/css/main.e342de18.chunk.css",
-    "static/js/main.9863e95b.chunk.js"
+    "static/js/main.ed34bbcb.chunk.js"
   ]
 }
