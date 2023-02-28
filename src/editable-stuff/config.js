@@ -141,7 +141,12 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: "Database and Web Developer",
+      role: "Associate Software Engineer",
+      companylogo: require("../assets/img/veeva.png"),
+      date: "February 2023 – Present",
+    },
+    {
+      role: "Full Stack Developer",
       companylogo: require("../assets/img/beaty.png"),
       date: "November 2021 – May 2022",
     },
@@ -151,7 +156,7 @@ const experiences = {
       date: "September 2019 – December 2021",
     },
     {
-      role: "Healthcare Software Engineer",
+      role: "Software Engineer",
       companylogo: require("../assets/img/xerusmedical.png"),
       date: "September 2020 – August 2021",
     },
