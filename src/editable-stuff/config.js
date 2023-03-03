@@ -132,7 +132,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I recently graduated! If you know of any available positions for new grads, have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently working full-time as a Software Engineer at Veeva Systems! If you want to connect, have any questions, or if you just want to say hi, please feel free to email me at",
   email: "sassan_shokoohi@me.com",
 };
 
@@ -190,7 +190,7 @@ const educations = {
     },
     {
       degree: "Bachelor of Science",
-      major: "Chemistry, Biology & Environmental Sciences",
+      major: "Chemistry, Life Sciences, Earth & Environmental Sciences",
       educationlogo: require("../assets/img/ubc-grey.png"),
       date: "2012 – 2017",
     },
