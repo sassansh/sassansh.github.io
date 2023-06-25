@@ -186,13 +186,13 @@ const educations = {
       degree: "Bachelor of Computer Science",
       major: "Computer Science",
       educationlogo: require("../assets/img/ubc-grey.png"),
-      date: "2019 – 2022",
+      date: "UBC",
     },
     {
       degree: "Bachelor of Science",
       major: "Chemistry, Life Sciences, Earth & Environmental Sciences",
       educationlogo: require("../assets/img/ubc-grey.png"),
-      date: "2012 – 2017",
+      date: "UBC",
     },
   ],
 };
