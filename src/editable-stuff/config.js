@@ -105,15 +105,15 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "JavaScript", value: 90 },
+    { name: "Java", value: 80 },
+    { name: "React", value: 75 },
+    { name: "MySQL", value: 75 },
+    { name: "IntelliJ", value: 80 },
+    { name: "HTML/CSS", value: 80 },
     { name: "Python", value: 80 },
-    { name: "SQL", value: 75 },
     { name: "Go", value: 80 },
     { name: "C/C++", value: 65 },
-    { name: "PHP", value: 75 },
     { name: "MongoDB", value: 70 },
-    { name: "React", value: 80 },
-    { name: "HTML/CSS", value: 80 },
-    { name: "VS Code/PyCharm", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -132,7 +132,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently working full-time as a Software Engineer at Veeva Systems! If you want to connect, have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently working full-time as an Associate Software Engineer at Veeva Systems! If you want to connect, have any questions, or if you just want to say hi, please feel free to email me at",
   email: "sassan_shokoohi@me.com",
 };
 
