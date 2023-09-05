@@ -58,7 +58,7 @@ const about = {
   imageLink: require("../editable-stuff/sassansh.png"),
   imageSize: 250,
   message:
-    "Hello! My name is Sassan and I am a software engineer with expertise in various programming languages including JavaScript, Python, Java, GoLang, and C/C++. I have hands-on experience working with popular frameworks such as React, Redux, Node, Express, and Vue. Also, experienced with various relational and non-relational databases such as MySQL, Postgres, and MongoDB. Throughout my career, I have worked on a range of projects, from developing personal projects to contributing to a healthcare analytics platform for a start-up and collaborating on a mental health web app. My passion for technology dates back to my childhood, and I am constantly seeking new challenges and opportunities to further my skills in this field.",
+    "Hello! My name is Sassan and I am a software engineer with expertise in various programming languages including JavaScript, Java, Python, GoLang, and C/C++. I have hands-on experience working with popular frameworks such as React, Redux, Node, Express, and Vue. Also, experienced with various relational and non-relational databases such as MySQL, Postgres, and MongoDB. Throughout my career, I have worked on a range of projects, from developing personal projects to contributing to a healthcare analytics platform for a start-up and collaborating on a mental health web app. My passion for technology dates back to my childhood, and I am constantly seeking new challenges and opportunities to further my skills in this field.",
   //resume: require("../editable-stuff/Sassan Shokoohi - Resume.pdf"),
 };
 
