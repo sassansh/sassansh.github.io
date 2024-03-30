@@ -132,7 +132,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently working full-time as an Associate Software Engineer at Veeva Systems! If you want to connect, have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently working full-time as a Software Engineer at Veeva Systems! If you want to connect, have any questions, or if you just want to say hi, please feel free to email me at",
   email: "sassan_shokoohi@me.com",
 };
 
@@ -141,9 +141,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: "Software Engineer",
+      companylogo: require("../assets/img/veeva.png"),
+      date: "March 2023 – Present",
+    },
+    {
       role: "Associate Software Engineer",
       companylogo: require("../assets/img/veeva.png"),
-      date: "February 2023 – Present",
+      date: "February 2023 – March 2023",
     },
     {
       role: "Full Stack Developer",
