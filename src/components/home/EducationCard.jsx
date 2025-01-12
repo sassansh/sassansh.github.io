@@ -9,7 +9,9 @@ const EducationCard = ({data}) => {
             <div className="pb-5 text-center">
                 <img className=" bg-white mb-3" src={data.educationlogo} alt=""/>
                 <p className="lead">
+                    <strong>
                     {data.degree}
+                    </strong>
                     <br/>
                     {data.date}
                     <br/>
