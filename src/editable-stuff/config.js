@@ -188,6 +188,12 @@ const educations = {
   heading: "Education",
   data: [
     {
+      degree: "Master of Science in Computer Science",
+      major: "Computing Systems Specialization",
+      educationlogo: require("../assets/img/ga-tech.png"),
+      date: "Georgia Institute of Technology",
+    },
+    {
       degree: "Bachelor of Computer Science",
       major: "Computer Science",
       educationlogo: require("../assets/img/ubc-grey.png"),
