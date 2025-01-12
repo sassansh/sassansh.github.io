@@ -143,12 +143,12 @@ const experiences = {
     {
       role: "Software Engineer",
       companylogo: require("../assets/img/veeva.png"),
-      date: "March 2023 – Present",
+      date: "March 2024 – Present",
     },
     {
       role: "Associate Software Engineer",
       companylogo: require("../assets/img/veeva.png"),
-      date: "February 2023 – March 2023",
+      date: "February 2023 – March 2024",
     },
     {
       role: "Full Stack Developer",
